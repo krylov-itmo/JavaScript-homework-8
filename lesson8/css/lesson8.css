@@ -1,0 +1,50 @@
+* { 
+	box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+section {
+    margin-bottom: 10px;
+}
+
+
+
+.cats {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    border: 1px solid lightgrey;
+    display: flex;
+    flex-direction: column;
+}
+
+.template {
+	display: flex;
+	flex-direction: row;
+}
+
+.template p {
+	display: flex;
+    align-items: center;
+ 	font-size: 1.5rem;
+}
+
+table {
+	border: 1px solid gray;
+}
+
+th {
+	background-color: yellow;
+}
+
